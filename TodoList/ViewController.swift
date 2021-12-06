@@ -29,7 +29,15 @@ class ViewController: UIViewController {
             thing.title = String(tit.text!)
             thing.detail = String(det.text!)
             thing.check = false
-            thing.date = date.date.formatted()
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "yyyy"
+            let year: String = dateFormatter.string(from: self.date.date)
+            dateFormatter.dateFormat = "MM"
+            let month: String = dateFormatter.string(from: self.date.date)
+            dateFormatter.dateFormat = "dd"
+            let day: String = dateFormatter.string(from: self.date.date)
+            
+            thing.date = "\(day)/\(month)/\(year)"
                 if (owner as! TableViewController).cr.hasChanges {
                     do {
                         try (owner as! TableViewController).cr.save()
