@@ -17,6 +17,8 @@
 		3AF74787275E2D1700E7D8E8 /* TodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF74786275E2D1700E7D8E8 /* TodoListTests.swift */; };
 		3AF74791275E2D1700E7D8E8 /* TodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF74790275E2D1700E7D8E8 /* TodoListUITests.swift */; };
 		3AF74793275E2D1700E7D8E8 /* TodoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF74792275E2D1700E7D8E8 /* TodoListUITestsLaunchTests.swift */; };
+		3AF747A0275E2D9F00E7D8E8 /* cellmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7479F275E2D9F00E7D8E8 /* cellmodel.swift */; };
+		3AF747A2275E3ADB00E7D8E8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF747A1275E3ADB00E7D8E8 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		3AF7478C275E2D1700E7D8E8 /* TodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF74790275E2D1700E7D8E8 /* TodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListUITests.swift; sourceTree = "<group>"; };
 		3AF74792275E2D1700E7D8E8 /* TodoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AF7479F275E2D9F00E7D8E8 /* cellmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellmodel.swift; sourceTree = "<group>"; };
+		3AF747A1275E3ADB00E7D8E8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				3AF7476E275E2D1500E7D8E8 /* SceneDelegate.swift */,
 				3AF74770275E2D1500E7D8E8 /* ViewController.swift */,
 				3AF74772275E2D1500E7D8E8 /* Main.storyboard */,
+				3AF747A1275E3ADB00E7D8E8 /* TableViewController.swift */,
+				3AF7479F275E2D9F00E7D8E8 /* cellmodel.swift */,
 				3AF74778275E2D1600E7D8E8 /* Assets.xcassets */,
 				3AF7477A275E2D1600E7D8E8 /* LaunchScreen.storyboard */,
 				3AF7477D275E2D1600E7D8E8 /* Info.plist */,
@@ -262,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AF74771275E2D1500E7D8E8 /* ViewController.swift in Sources */,
+				3AF747A2275E3ADB00E7D8E8 /* TableViewController.swift in Sources */,
 				3AF7476D275E2D1500E7D8E8 /* AppDelegate.swift in Sources */,
+				3AF747A0275E2D9F00E7D8E8 /* cellmodel.swift in Sources */,
 				3AF7476F275E2D1500E7D8E8 /* SceneDelegate.swift in Sources */,
 				3AF74777275E2D1500E7D8E8 /* TodoList.xcdatamodeld in Sources */,
 			);
